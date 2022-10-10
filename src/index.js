@@ -10,8 +10,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Auth0Provider
-      domain="dev-vu05pq1i.au.auth0.com"
-      clientId="Aiwl0uJMs99Nkm642Xz9rVDNeKLtH69J"
+      domain={process.env.AUTH0_DOMAIN}
+      clientId={process.env.AUTH0_CLIENT_ID}
       redirectUri={window.location.origin}
     >
       <ChakraProvider>
