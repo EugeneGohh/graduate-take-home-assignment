@@ -1,49 +1,70 @@
-<p align="center"> 
-    <img src="https://regov-store.s3.ap-southeast-1.amazonaws.com/REGOV+Logo_CMYK.png" width="200" >
-</p>
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# { "developer": "Graduate Trainee" }
+## Available Scripts
 
-Hey! We are excited that you are interested in joining the team at Regov Technologies.
+In the project directory, you can run:
 
-We feel that the best place to really show us your skills is somewhere you feel comfortable. This test should not take you a long amount of time to complete.
+### `npm start`
 
-This take home test is used to determine how you go about solving problems logically. You are free to implement in whatever language you are comfortable in. This challenge contains two questions out of which you are only required to attempt one. However, being able to do deliver two questions is an added advantage in your application :)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Coding Challenge ()
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-### Question 1.
-Design a frontend website or mobile application User Interface (UI) that has two three features: User Registration, Sign-On screen/module, and User Profile interface. The interface should implement a user journey as described: The registration, Sign-On, and then Profile interface. The user profile page should be neat and creative.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Requirements: 
-- Frontend Application / UI only (React JS, Vue JS, or Angular JS)
-- Dummy interface - zero connection with the backend
+### `npm run build`
 
-### Question 2. 
-Implement a user registration and login API, connect mysql database, a user should be able to register and then use the registered detials to sign into the system. A signed in user should be able to log out from the system.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Requirements: 
-- Backend Application (Node JS, Python, Golang e.t.c)
-- Dummy interface - zero connection with the backend
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Notes and recommendations
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Use Node.js | Python
-- The languages, frameworks and libraries mentioned are recommendations only, you are free to use whatever you are comfortable with.
-- The project structure is up to your decision.
-- You are recommended to use git commits in a logical manner to demonstrate the development progress
-- Writing tests and adhering to development standards/conventions will attract extra points.
+### `npm run eject`
 
-### The HandOver
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- Send your implementation in Git Repo.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### The Review
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Please include a README file with a quick description of your solution.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Submission
+## Learn More
 
-- Email your work to careers@regovtech.com & techchallenge@regovtech.com
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
