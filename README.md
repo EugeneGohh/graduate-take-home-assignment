@@ -9,4 +9,4 @@ through social sign up (eg **GitHub**) or sign up with conventional method email
 After signing up, user profile data such as `email` & `name` will be fetched & 
 displayed on the UI.
 
-Kindly run this in development by running the command `npm start`.
+Feel free to run this in production by visiting https://graduate-take-home-assignment.vercel.app/.
