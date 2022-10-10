@@ -8,3 +8,5 @@ scene will be executed, a user has two choices of signing up either
 through social sign up (eg **GitHub**) or sign up with conventional method email & password.
 After signing up, user profile data such as `email` & `name` will be fetched & 
 displayed on the UI.
+
+Kindly run this in development by running the command `npm start`.
