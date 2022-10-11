@@ -1,9 +1,9 @@
 import React from "react";
 import { Box, Flex, HStack, Button, ButtonGroup, Menu } from "@chakra-ui/react";
+import { useAuth0 } from "@auth0/auth0-react";
 import SignUp from "./SignUp.jsx";
 import LogOut from "./LogOut.jsx";
 import UserProfile from "./UserProfile.jsx";
-import { useAuth0 } from "@auth0/auth0-react";
 
 export default function Navbar() {
   const { isAuthenticated } = useAuth0();
@@ -33,6 +33,7 @@ export default function Navbar() {
             <Box>Eugene Goh's Assignment</Box>
           </HStack>
 
+          {/* Display sign up/log out button component*/}
           <Flex alignItems={"center"}>
             <Menu>
               <ButtonGroup gap="2">
@@ -43,6 +44,7 @@ export default function Navbar() {
         </Flex>
       </Box>
 
+      {/* Display user profile data */}
       <Box p={4}>
         <UserProfile />
       </Box>

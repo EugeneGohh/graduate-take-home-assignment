@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 import {
   Center,
   Flex,
@@ -7,7 +6,6 @@ import {
   Stack,
   Spinner,
   Text,
-  useColorModeValue,
 } from "@chakra-ui/react";
 import { useAuth0 } from "@auth0/auth0-react";
 
@@ -77,7 +75,7 @@ export default function UserProfile() {
         w={{ sm: "100%", md: "540px" }}
         height={{ sm: "476px", md: "20rem" }}
         direction={{ base: "column", md: "row" }}
-        bg={useColorModeValue("white", "gray.900")}
+        bg={"white"}
         boxShadow={"2xl"}
         padding={4}
       >
